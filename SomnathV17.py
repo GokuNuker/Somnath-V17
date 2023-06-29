@@ -389,7 +389,7 @@ class SomnathV17:
             
         elif ans == "10":
             try:
-                response = self.session.get("https://github.com/notspeezy/SomnathV17-Nuker/releases/latest")
+                response = self.session.get("https://github.com/GokuNuker/Somnath-V17/releases/latest")
                 check_version = response.headers.get('location').split('/')[7].split('v')[1]
                 if VERSION != check_version:
                     print("{}({}SomnathV17{}) You're using an outdated version!".format("\x1b[0m", "\x1b[38;5;21m", "\x1b[0m"))
